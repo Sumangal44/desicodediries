@@ -7,7 +7,7 @@ def play_lyrics_with_music():
     pygame.mixer.init()
     
     # REPLACE 'paro.mp3' with your actual filename
-    music_file = r"C:\Users\suman\desicodediries\lyricspython\paro.mp3"
+    music_file = r"paro.mp3"
     
     try:
         pygame.mixer.music.load(music_file)
